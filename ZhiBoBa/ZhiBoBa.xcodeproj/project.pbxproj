@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					755BAAD01ECC40A30091F705 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LZ99PKMWMY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZ99PKMWMY;
 				INFOPLIST_FILE = ZhiBoBa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.project.ZhiBoBa;
@@ -272,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZ99PKMWMY;
 				INFOPLIST_FILE = ZhiBoBa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.project.ZhiBoBa;
@@ -299,6 +302,7 @@
 				755BAAE51ECC40A30091F705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
