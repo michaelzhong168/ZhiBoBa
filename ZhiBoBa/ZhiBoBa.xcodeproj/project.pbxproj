@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		755BAAD51ECC40A30091F705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BAAD41ECC40A30091F705 /* AppDelegate.swift */; };
-		755BAAD71ECC40A30091F705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BAAD61ECC40A30091F705 /* ViewController.swift */; };
-		755BAADA1ECC40A30091F705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755BAAD81ECC40A30091F705 /* Main.storyboard */; };
-		755BAADC1ECC40A30091F705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755BAADB1ECC40A30091F705 /* Assets.xcassets */; };
-		755BAADF1ECC40A30091F705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755BAADD1ECC40A30091F705 /* LaunchScreen.storyboard */; };
+		5173CEA66D6904569CBFC21E /* Pods_ZhiBoBa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0360CE7442B465D64B694361 /* Pods_ZhiBoBa.framework */; };
+		755BAAEF1ECEFD940091F705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BAAEB1ECEFD940091F705 /* AppDelegate.swift */; };
+		755BAAF01ECEFD940091F705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755BAAEC1ECEFD940091F705 /* Assets.xcassets */; };
+		755BAAF11ECEFD940091F705 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 755BAAED1ECEFD940091F705 /* Base.lproj */; };
+		755BAAF21ECEFD940091F705 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 755BAAEE1ECEFD940091F705 /* Info.plist */; };
+		755BAAFC1ED2EB8C0091F705 /* ZBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BAAFB1ED2EB8C0091F705 /* ZBBaseViewController.swift */; };
+		755BAAFE1ED2EDF40091F705 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BAAFD1ED2EDF40091F705 /* AppManager.swift */; };
+		755BAB001F0227A20091F705 /* ZBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BAAFF1F0227A20091F705 /* ZBTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0360CE7442B465D64B694361 /* Pods_ZhiBoBa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhiBoBa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C88546DA59E184E14325328 /* Pods-ZhiBoBa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBoBa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa.debug.xcconfig"; sourceTree = "<group>"; };
 		755BAAD11ECC40A30091F705 /* ZhiBoBa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBoBa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		755BAAD41ECC40A30091F705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		755BAAD61ECC40A30091F705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		755BAAD91ECC40A30091F705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		755BAADB1ECC40A30091F705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		755BAADE1ECC40A30091F705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		755BAAE01ECC40A30091F705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755BAAEB1ECEFD940091F705 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Resource/AppDelegate.swift; sourceTree = "<group>"; };
+		755BAAEC1ECEFD940091F705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resource/Assets.xcassets; sourceTree = "<group>"; };
+		755BAAED1ECEFD940091F705 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Resource/Base.lproj; sourceTree = "<group>"; };
+		755BAAEE1ECEFD940091F705 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resource/Info.plist; sourceTree = "<group>"; };
+		755BAAFB1ED2EB8C0091F705 /* ZBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZBBaseViewController.swift; path = Expand/Common/BaseClass/ZBBaseViewController.swift; sourceTree = "<group>"; };
+		755BAAFD1ED2EDF40091F705 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppManager.swift; path = Expand/Common/AppManager.swift; sourceTree = "<group>"; };
+		755BAAFF1F0227A20091F705 /* ZBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZBTableViewController.swift; path = Main/ZBTableViewController.swift; sourceTree = "<group>"; };
+		86CDF7FECAB31E27CEC27559 /* Pods-ZhiBoBa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBoBa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5173CEA66D6904569CBFC21E /* Pods_ZhiBoBa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,8 @@
 			children = (
 				755BAAD31ECC40A30091F705 /* ZhiBoBa */,
 				755BAAD21ECC40A30091F705 /* Products */,
+				E65334F29F876040C1350017 /* Pods */,
+				F1A82ABACBD3B3583CEDBE7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +64,72 @@
 		755BAAD31ECC40A30091F705 /* ZhiBoBa */ = {
 			isa = PBXGroup;
 			children = (
-				755BAAD41ECC40A30091F705 /* AppDelegate.swift */,
-				755BAAD61ECC40A30091F705 /* ViewController.swift */,
-				755BAAD81ECC40A30091F705 /* Main.storyboard */,
-				755BAADB1ECC40A30091F705 /* Assets.xcassets */,
-				755BAADD1ECC40A30091F705 /* LaunchScreen.storyboard */,
-				755BAAE01ECC40A30091F705 /* Info.plist */,
+				755BAAF81ED2EA330091F705 /* Expand */,
+				755BAAF31ECEFDDA0091F705 /* Main */,
+				755BAAEA1ECEFD870091F705 /* Resource */,
 			);
 			path = ZhiBoBa;
+			sourceTree = "<group>";
+		};
+		755BAAEA1ECEFD870091F705 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				755BAAEB1ECEFD940091F705 /* AppDelegate.swift */,
+				755BAAEC1ECEFD940091F705 /* Assets.xcassets */,
+				755BAAED1ECEFD940091F705 /* Base.lproj */,
+				755BAAEE1ECEFD940091F705 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		755BAAF31ECEFDDA0091F705 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				755BAAFF1F0227A20091F705 /* ZBTableViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		755BAAF81ED2EA330091F705 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				755BAAF91ED2EA4B0091F705 /* Common */,
+			);
+			name = Expand;
+			sourceTree = "<group>";
+		};
+		755BAAF91ED2EA4B0091F705 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				755BAAFA1ED2EB660091F705 /* BaseClass */,
+				755BAAFD1ED2EDF40091F705 /* AppManager.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		755BAAFA1ED2EB660091F705 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				755BAAFB1ED2EB8C0091F705 /* ZBBaseViewController.swift */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+		E65334F29F876040C1350017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C88546DA59E184E14325328 /* Pods-ZhiBoBa.debug.xcconfig */,
+				86CDF7FECAB31E27CEC27559 /* Pods-ZhiBoBa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1A82ABACBD3B3583CEDBE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0360CE7442B465D64B694361 /* Pods_ZhiBoBa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 755BAAE31ECC40A30091F705 /* Build configuration list for PBXNativeTarget "ZhiBoBa" */;
 			buildPhases = (
+				9ED92792486B849B3658B2F9 /* [CP] Check Pods Manifest.lock */,
 				755BAACD1ECC40A30091F705 /* Sources */,
 				755BAACE1ECC40A30091F705 /* Frameworks */,
 				755BAACF1ECC40A30091F705 /* Resources */,
+				C1A64F8DE49E18C5CE24F317 /* [CP] Embed Pods Frameworks */,
+				0F28BB5B355B938987D043F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,44 +195,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				755BAADF1ECC40A30091F705 /* LaunchScreen.storyboard in Resources */,
-				755BAADC1ECC40A30091F705 /* Assets.xcassets in Resources */,
-				755BAADA1ECC40A30091F705 /* Main.storyboard in Resources */,
+				755BAAF21ECEFD940091F705 /* Info.plist in Resources */,
+				755BAAF11ECEFD940091F705 /* Base.lproj in Resources */,
+				755BAAF01ECEFD940091F705 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F28BB5B355B938987D043F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED92792486B849B3658B2F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A64F8DE49E18C5CE24F317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		755BAACD1ECC40A30091F705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				755BAAD71ECC40A30091F705 /* ViewController.swift in Sources */,
-				755BAAD51ECC40A30091F705 /* AppDelegate.swift in Sources */,
+				755BAAFE1ED2EDF40091F705 /* AppManager.swift in Sources */,
+				755BAB001F0227A20091F705 /* ZBTableViewController.swift in Sources */,
+				755BAAEF1ECEFD940091F705 /* AppDelegate.swift in Sources */,
+				755BAAFC1ED2EB8C0091F705 /* ZBBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		755BAAD81ECC40A30091F705 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				755BAAD91ECC40A30091F705 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		755BAADD1ECC40A30091F705 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				755BAADE1ECC40A30091F705 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		755BAAE11ECC40A30091F705 /* Debug */ = {
@@ -259,6 +361,7 @@
 		};
 		755BAAE41ECC40A30091F705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C88546DA59E184E14325328 /* Pods-ZhiBoBa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LZ99PKMWMY;
@@ -272,6 +375,7 @@
 		};
 		755BAAE51ECC40A30091F705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CDF7FECAB31E27CEC27559 /* Pods-ZhiBoBa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LZ99PKMWMY;

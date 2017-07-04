@@ -1,0 +1,5 @@
+
+target 'ZhiBoBa' do
+    use_frameworks!
+pod 'MJRefresh'
+end

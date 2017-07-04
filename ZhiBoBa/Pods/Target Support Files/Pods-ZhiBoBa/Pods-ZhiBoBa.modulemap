@@ -1,0 +1,6 @@
+framework module Pods_ZhiBoBa {
+  umbrella header "Pods-ZhiBoBa-umbrella.h"
+
+  export *
+  module * { export * }
+}
